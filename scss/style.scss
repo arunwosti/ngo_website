@@ -82,12 +82,12 @@
 --------------------------------------------------------------------------------------------*/
 .head2{
     margin-top: 10px;
-    margin-bottom: 10px;
+    
     background-color: white;
 
     img{
         margin-left: 5%;
-        padding-top: 5px;
+        
         width: 25%;
         height: 90%;
 
@@ -113,6 +113,8 @@
         justify-items: center;
         padding-left: 5%;
         padding-right: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 2%;
         
         
         
@@ -248,18 +250,21 @@
             }
             text-align: start;
         .readmore{
-            background-color: #ADADAD;
+            background-color: #D43C18;
             color: white;
             padding-left: 10%;
             padding-right: 10%;
-            padding-top: 7px;
-            padding-bottom: 7px;
-            border: 1px solid #ADADAD;
+            padding-top: 1.5%;
+            padding-bottom: 2%;
+            border: 1px solid #D43C18;
             border-radius: 50px;
             margin-bottom: 15px;
         }
         .readmore:hover{
-            background-color: #D43C18;
+            background-color: #ADADAD;
+            color: #D43C18;
+            font-weight: 500;
+            border: 2px solid #D43C18;
         }
      }
      

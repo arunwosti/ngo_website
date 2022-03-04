@@ -4,6 +4,13 @@
             padding-left: 7%;
         }
     }
+    .abtus{
+        .abtrow{
+            .readmore{
+                margin-left: 20%;
+            }
+        }
+    }
 }
 @media(max-width:978px){
     .carousel-caption{
@@ -63,6 +70,12 @@
             font-size: 10px;
             padding-bottom: 6px;
             padding-top: 4px;
+        }
+    }
+    .head2{
+        .donbut{
+            padding-top: 3px;
+            padding-bottom: 5px;
         }
     }
 
@@ -269,11 +282,39 @@
 @media(max-width:480px){
     
     .head2{
+        img{
+            width: 30%;
+            height: 120%;
+            margin-left: 3%;
+            
+        }
         input{
-            margin-left: 15%;
-            height: 90%;
-            width: 40%;
+            margin-left: 3%;
+            height: 60%;
+            width: 50%;
+        }
+        .srcbtn{
+            padding: 0.3% 1.6%;
+        }
+        .donbut{
+            font-size: 12px;
+            padding-top: 1.5px;
+            padding-bottom: 2px;
+        }
+        span{
+            font-size: 14px;
         }
     }
+    
+   
+}
+@media(max-width:428px){
+   .donators{
+    .per{
+        h7{
+            padding-left: 62%;
+        }
+    }
+   }
     
 }
