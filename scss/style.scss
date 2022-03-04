@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*------------------------------------------------------------------------------------------
+============================= Section 1 Header==============================================
+--------------------------------------------------------------------------------------------*/
+
+.bgcolor{
+    background-color: #1E1E1E;
+    
+    .customtxt{
+       font-size: 12px;
+       color: #9C9C9C;
+
+       display: inline-block;
+       padding-left: 10%;
+      p{
+        a{
+            color: #9C9C9C;
+            text-decoration: none;
+            }
+            a:hover{
+                color: white;
+            }
+      
+
+       i{
+           padding-right: 5%;
+           
+          
+       }
+    }
+    }
+    .social{
+        padding-left: 10%;
+        align-items: center;
+        a{
+            color: #9C9C9C;
+            text-decoration: none;
+            }
+            a:hover{
+                color: white;
+            }
+        i{
+            font-size: 12px;
+            padding-right: 3%;
+           
+        }
+        .fonte{
+            padding: 5px 7px;
+            color:black ;
+            background-color: #C4C4C4;
+            
+            
+            border: 0.5px solid #9C9C9C ;
+            border-radius: 50%;
+            overflow: hidden;
+    
+    
+        }
+        .fonte:hover{
+            background-color: white;
+            overflow: hidden;
+            border: 0.5px solid #9C9C9C ;
+            border-radius: 50%;
+            
+            
+
+        }
+    }
+    
+}
+
+/*------------------------------------------------------------------------------------------
+============================= Section 2 Header2==============================================
+--------------------------------------------------------------------------------------------*/
+.head2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+
+    img{
+        margin-left: 5%;
+        padding-top: 5px;
+        width: 25%;
+        height: 90%;
+
+    }
+    input{
+        margin-left: 15%;
+        height: 50%;
+        width: 40%;
+    }
+    .srcbtn{
+        margin-left: 10px;
+        border: 1px solid #C4C4C4;
+        padding: 0.8% 1.5%;
+        border-radius: 100px;
+        
+    }
+    .donbut{
+        
+        border: 1px solid #C4C4C4;
+        border-radius: 60px;
+        color: white;
+        background-color: #D43C18;
+        justify-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+        
+        
+    }
+    .donbut:hover{
+        background-color: #1E1E1E;
+        
+    }
+    .dol{
+        margin-left: 8%;
+        margin-right: 8%;
+        
+        
+    }
+    span{
+        font-size: 16px;
+        font-style: normal;
+        padding-left: 5px;
+    }
+}
+
+/*------------------------------------------------------------------------------------------
+============================= Section 3 Menu==============================================
+--------------------------------------------------------------------------------------------*/
+
+.menu{
+    
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #F4F4F4;
+    a{
+        color: #1E1E1E;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 2%;
+        padding-top: 15px;
+    }
+    .home{
+        padding-left: 7%;
+        
+    }
+    
+    a:hover{
+        color: orangered;
+        
+       
+        
+        
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------
+============================= Section 4 Slider Banner==============================================
+--------------------------------------------------------------------------------------------*/
+.carousel-item{
+    width: 100%;
+    height: 100%;
+
+    .carousel-caption{
+        padding-left: 42%;
+        padding-bottom: 10px;
+
+        h2{
+            color: #1093C8;
+            font-size: 45px;
+            font-weight: 700;
+        }
+        h5{
+            color: black;
+            font-weight: 700;
+        }
+        .donbut{
+        
+            border: 1px solid #C4C4C4;
+            border-radius: 60px;
+            color: white;
+            background-color: #D43C18;
+            justify-items: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 10px;
+            padding-top: 8px;
+            
+            
+            
+        }
+        .donbut:hover{
+            background-color: #1E1E1E;
+            
+        }
+        
+    }
+
+}
+.carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1E1E1E;
+    opacity: 0.2;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------
+============================= Section 5 About us==============================================
+--------------------------------------------------------------------------------------------*/
+.abtus{
+    background-color: #E7EBEA;
+    margin: 0;
+   
+    .abtrow{
+        margin-left: 15%;
+        .mission{
+            margin-left: 1%;
+            margin-top: 1%;
+            margin-right: 1%;
+            margin-bottom: 1%;
+            padding-left: 3%;
+            padding-right: 1%;
+            background-color: white;
+            h3{
+                padding-top: 20px;
+                text-align: center;
+            }
+            text-align: start;
+        .readmore{
+            background-color: #ADADAD;
+            color: white;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border: 1px solid #ADADAD;
+            border-radius: 50px;
+            margin-bottom: 15px;
+        }
+        .readmore:hover{
+            background-color: #D43C18;
+        }
+     }
+     
+    }
+    /*------------------------------------------------------------------------------------------
+============================= Section 5 About us==============================================
+--------------------------------------------------------------------------------------------*/
+    .abc{
+        padding: 0;
+    .abtrow2{
+        background-color: white;
+        margin: 0;
+            padding: 0;
+
+        img{
+            width: 100%;
+            height: 250px;
+            padding-left: 0;
+            
+        }
+        a{
+            text-decoration: none;
+            color: #43121D;
+        }
+        a:hover{
+            color: #D43C18;
+        }
+        p{
+            color: #ADADAD;
+        }
+        .donbut{
+        
+            border: 1px solid #C4C4C4;
+            border-radius: 50px;
+            color: white;
+            background-color: #D43C18;
+            justify-items: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 7px;
+            padding-bottom: 10px;
+            
+            
+            
+        }
+        .donbut:hover{
+            background-color: #1E1E1E;
+            
+        }
+    }
+}
+}
+
+/*------------------------------------------------------------------------------------------
+============================= Section 6 Cause list==============================================
+--------------------------------------------------------------------------------------------*/
+
+.boddy{
+    background-color: white;
+}
+.title{
+    
+    color: #43121D;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.owl-carousel{
+    
+    .box{
+        h5{
+            font-size: 18px;
+            padding-top: 10px;
+        }
+        p{
+            font-size: 14px;
+            color: rgb(73, 72, 72);
+        }
+        .span2{
+            color: #9C9C9C;
+          
+           font-weight: 500;
+            
+        }
+
+    }
+  
+}
+.progressline{
+    height: 5px;
+    width: 100%;
+    background-color: #C4C4C4;
+    position: relative;
+}
+.progressline span{
+    height: 5px;
+    width: 60%;
+    background-color: #D43C18;
+    position: absolute;
+}
+.progressline2{
+    height: 5px;
+    width: 100%;
+    background-color: #C4C4C4;
+    position: relative;
+}
+.progressline2 span{
+    height: 5px;
+    width: 80%;
+    background-color: #D43C18;
+    position: absolute;
+}
+.per{
+    font-size: 16px;
+    font-weight: 500;
+
+   h7{
+       padding-left: 50%;
+   }
+   p{
+       font-size: 16px;
+       color: #9C9C9C;
+   }
+    
+}
+
+
+.place-order{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/img1.png');
+    background-size: cover;
+   background-attachment: fixed;
+   background-position: 0 81.35px;
+   padding: 3.725rem 0;
+   opacity: 1;
+
+   .main-btnn{
+       background-color: #D43C18;
+       color: white;
+       border: 1px solid #D43C18;
+       border-radius: 50px;
+       padding-left: 10%;
+       padding-right: 10%;
+       padding-top: 7px;
+       padding-bottom: 10px;
+   }
+   .main-btnn:hover{
+       background-color: #1E1E1E;
+       border-color: white;
+   }
+   
+}
+
+.place-order{
+     h2{
+    color:#D43C18;
+     }
+     p{
+         color: white;
+     }
+    }   
+
+/*------------------------------------------------------------------------------------------
+============================= Section 7 ==============================================
+--------------------------------------------------------------------------------------------*/
+.wrapper{
+    background-color: #D43C18;
+    padding-top: 50px;
+}
+.newsletter{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: #D43C18 ;
+   
+
+}
+.newsletter h2{
+    color: white;
+    font-size: 50px;
+}
+.newsletter p{
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.newsletter .form-control{
+    height: 2.45rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 80%;
+    border: none;
+    background: white;
+    
+    color: black;
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    border: 2px solid gray;
+}
+.main-btn{
+    background: linear-gradient(rgb(252, 118, 40), white,rgb(245, 141, 149));
+    color: black;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.main-btn:hover{
+    opacity: 0.8;
+    border-color: white;
+}
+
+/*------------------------------------------------------------------------------------------
+============================= Section 7 Donators ==============================================
+--------------------------------------------------------------------------------------------*/
+
+.donators{
+    background-color: white;
+    .box{
+        text-align: start;
+        h5{
+            font-size: 16px;
+        }
+        p{
+            font-size: 12px;
+            font-weight: 500;
+            color: #888787;
+        }
+    }
+    .per{
+        font-size: 14px;
+        h7{
+            padding-left: 40%;
+            color: #D43C18;
+            font-size: 18px;
+        }
+    }
+}
+
+/*------------------------------------------------------------------------------------------
+============================= Section 9 Footer ==============================================
+--------------------------------------------------------------------------------------------*/
+.footer{
+    a{
+        color: white;
+        padding-right: 5px;
+    }
+    a:hover{
+        color: #D43C18;
+    }
+    hr{
+        background-color: white;
+        margin-top: 40px;
+    }
+}
